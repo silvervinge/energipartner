@@ -3,8 +3,6 @@ site: Energipartner | Värme att lita på
 url: ""
 baseurl: ""
 permalink: pretty
-markdown: kramdown
-highlighter: rouge
 
 collections:
   pages:

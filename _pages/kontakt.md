@@ -1,6 +1,6 @@
 ---
 title: Kontakta oss
-subtitle: This theme comes with a built-in contact form that's free and easy to set up.
+subtitle: Energipartner Åland Ab – Kontakta oss
 type: contact
 description: This theme comes with a built-in contact form that's free and easy to set up.
 permalink: '/kontakt/'

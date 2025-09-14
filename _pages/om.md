@@ -1,6 +1,6 @@
 ---
 title: Om oss
-subtitle: Eneripartner Åland Ab
+subtitle: Eneripartner Åland Ab – Om oss
 description: Värme att lita på med värmesystem från Fröling och lokal expertis på Åland.
 permalink: '/om/'
 featured_image: /assets/img/sections/broofoac.jpg

@@ -1,7 +1,7 @@
 ---
-title: Blog Example - Narrow Grid
-subtitle: Perfect for varied post types
-permaling: '/artiklar/'
+title: Artiklar
+subtitle: Energipartner Åland Ab – Artiklar om värmepannor på Åland
+permalink: '/artiklar/'
 ---
 
 ### Narrow Grid

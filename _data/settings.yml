@@ -61,7 +61,7 @@ menu_settings:
       url: '/kontakt/'
 
 footer_settings:
-  footer_tagline: Argon & Jekyll, together at last.
+  footer_tagline: Energipartner – Värme att lita på
 
 contact_settings:
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
