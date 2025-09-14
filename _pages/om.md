@@ -1,7 +1,8 @@
 ---
-title: About Us
-subtitle: This is the perfect theme for developers, designers and other creatives.
-description: Use the Argon Jekyll theme to build a landing page, blog or complete website.
+title: Om oss
+subtitle: Eneripartner Åland Ab
+description: Värme att lita på med värmesystem från Fröling och lokal expertis på Åland.
+permalink: '/om/'
 featured_image: /assets/img/sections/broofoac.jpg
 ---
 
