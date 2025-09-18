@@ -1,8 +1,8 @@
 ---
-title: Om oss
-subtitle: Värmesystem från Fröling och lokal expertis på Åland
+title: Värmepannor från Fröling
+subtitle: Ved eller flis – biovärme för dig
 description: Värme att lita på med värmesystem från Fröling och lokal expertis på Åland.
-permalink: '/om/'
+permalink: '/produkter/'
 featured_image: /assets/img/sections/broofoac.jpg
 ---
 
