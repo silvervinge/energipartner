@@ -53,7 +53,7 @@ var $tagsinput = $('.tagsinput');
   }
 })();
 
-$(document).ready(function() {
+(function() {
 
   // Multilevel Dropdown menu
 
@@ -128,6 +128,7 @@ $(document).ready(function() {
 
   // Headroom - show/hide navbar on scroll
   if ($('.headroom')[0]) {
+    console.log("Initiating headroom...");
     var headroom = new Headroom(document.querySelector("#navbar-main"), {
       offset: 300,
       tolerance: {
@@ -232,7 +233,7 @@ $(document).ready(function() {
     }, '300');
   });
 
-});
+})();
 
 $(document).on('click', '.card-rotate .btn-rotate', function() {
   var $rotating_card_container = $(this).closest('.rotating-card-container');
