@@ -35,6 +35,8 @@
   <!-- CSS Files -->
   <link rel="stylesheet" href="{{ "/assets/styles/styles.css" | relative_url }}" rel="stylesheet">
 
+  <link rel="preload" href="{{ "/assets/js/core/jquery.min.js" | relative_url }}" as="script">
+
   {% if site.data.settings.advanced_settings.analytics_code %}
   <!-- Analytics Code -->
   {{ site.data.settings.advanced_settings.analytics_code }}

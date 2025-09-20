@@ -31,7 +31,9 @@ var $collapse = $('.navbar .collapse');
 var $html = $('html');
 var $tagsinput = $('.tagsinput');
 
-(function() {
+/* PerfectScrollbar fungerar inte som den ska
+
+$(function() {
   var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
   if (isWindows) {
@@ -51,7 +53,8 @@ var $tagsinput = $('.tagsinput');
   } else {
     $html.addClass('perfect-scrollbar-off');
   }
-})();
+});
+*/
 
 (function() {
 
@@ -126,19 +129,6 @@ var $tagsinput = $('.tagsinput');
     dateFormat: "Y-m-d H:i",
   });
 
-  // Headroom - show/hide navbar on scroll
-  if ($('.headroom')[0]) {
-    console.log("Initiating headroom...");
-    var headroom = new Headroom(document.querySelector("#navbar-main"), {
-      offset: 300,
-      tolerance: {
-        up: 30,
-        down: 30
-      },
-    });
-    headroom.init();
-  }
-
   if ($('#choices-single-default')[0]) {
     // Activate Choices
     new Choices('#choices-single-default', {
@@ -164,9 +154,6 @@ var $tagsinput = $('.tagsinput');
       removeItemButton: true,
     });
   }
-
-  // Activate Sliders
-  ArgonKit.initSliders();
 
   // Tooptips
   $(function() {

@@ -46,7 +46,7 @@
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
 <script src="{{ "/assets/js/plugins/nouislider.min.js" | relative_url }}" type="text/javascript"></script>
 <!--  Plugin for the Carousel, full documentation here: http://jedrzejchalubek.com/ -->
-<script src="{{ "/assets/js/plugins/glide.js"" | relative_url }}" type="text/javascript"></script>
+<script src="{{ "/assets/js/plugins/glide.js" | relative_url }}" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://flatpickr.js.org/ -->
 <script src="{{ "/assets/js/plugins/moment.min.js" | relative_url }}" type="text/javascript"></script>
 <!--	Plugin for Select, full documentation here: https://joshuajohnson.co.uk/Choices/ -->
@@ -56,7 +56,7 @@
 <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
 <script src="{{ "/assets/js/plugins/jasny-bootstrap.min.js" | relative_url }}" type="text/javascript"></script>
 <!-- Plugin for Headrom, full documentation here: https://wicky.nillia.ms/headroom.js/ -->
-<script src="{{ "/assets/js/plugins/headroom.js" | relative_url }}" type="text/javascript"></script>
+<script src="{{ "/assets/js/plugins/headroom.min.js" | relative_url }}" type="text/javascript"></script>
 <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
 
 <script>
@@ -108,3 +108,31 @@
 {% endif %}
 
 <script src="{{ "/assets/js/argon-design-system.js?v=1.0.0" | relative_url }}" type="text/javascript"></script>
+<script>
+    $(function () {
+      // Headroom - show/hide navbar on scroll
+      if ($('.headroom')[0]) {
+        var headroom = new Headroom(document.querySelector("#navbar-main"), {
+          offset: 300,
+          tolerance: {
+            up: 30,
+            down: 30
+          },
+          classes: {
+            top: "headroom--top navbar-light bg-white",
+            notTop: "headroom--not-top navbar-dark"
+          },
+          onTop: function() {
+            $('#navbar-brand-logo-image').attr('src', "{{ '/assets/img/brand/color.png' | relative_url }}");
+          },
+          onNotTop: function() {
+            $('#navbar-brand-logo-image').attr('src', "{{ '/assets/img/brand/white.png' | relative_url }}");
+          }
+        });
+        headroom.init();
+      }
+
+      // Activate Sliders
+      ArgonKit.initSliders();
+    });
+</script>
