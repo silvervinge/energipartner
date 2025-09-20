@@ -3,22 +3,22 @@ title: Hem
 layout: default
 description: Energipartner – Värme att lita på
 featured_image: /assets/img/social.jpg
+
+header:
+  background_image: /assets/img/ill/p2.webp
+
+kundcase:
+  - title: "KUNDCASE: Storgårdsägg"
+    description: "När Storgårdsägg byggde ut verksamheten 2024 räckte det dåvarande värmesystemet inte längre till. Vi planerade och projekterade ett nytt, med utvalda produkter från Fröling."
+    link: "#"
+    link_text: "Läs mer"
+    image: "/assets/img/storgards-agg.webp"
 ---
 
 <!--Replace this page with your landing page content -->
 {% if site.data.settings.home_settings.theme == "landing" %}
   {% include home.html %}
-  <div class="features-7 fullWidth contentWrapper">
-    <div class="container mb-2">
-    <div class="row">
-        <div class="col-md-8 text-center mx-auto">
-            <h3 class="display-2">Artiklar</h3>
-            <p class="lead pb-5">Läs om trä, värme, Frölings produkter och annat intressant!</p>
-        </div>
-    </div>
-    
-    </div>
-  </div>
+
   {% include blogsHome.html %}
 {% endif %}
 
@@ -37,9 +37,9 @@ featured_image: /assets/img/social.jpg
     </div>
 
       <section class="blog main-raised">
-          {% include blogsHome.html %}  
+          {% include blogsHome.html %}
       </section>
-          
+
   {% endif %}
 
   {% if site.data.settings.blog_settings.theme == "basic" %}
@@ -55,9 +55,9 @@ featured_image: /assets/img/social.jpg
     </div>
 
       <section class="blog mt-5">
-          {% include blogsHome.html %}  
+          {% include blogsHome.html %}
       </section>
-          
+
   {% endif %}
 
   {% if site.data.settings.blog_settings.theme == "grid" %}
@@ -73,9 +73,9 @@ featured_image: /assets/img/social.jpg
     </div>
 
       <section class="blog">
-          {% include blogsHome.html %}  
+          {% include blogsHome.html %}
       </section>
-          
+
   {% endif %}
 
 {% endif %}

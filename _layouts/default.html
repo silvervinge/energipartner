@@ -36,6 +36,9 @@
   <link rel="stylesheet" href="{{ "/assets/styles/styles.css" | relative_url }}" rel="stylesheet">
 
   <link rel="preload" href="{{ "/assets/js/core/jquery.min.js" | relative_url }}" as="script">
+  {% if page.header.background_image %}
+  <link rel="preload" href="{{ page.header.background_image | relative_url }}" as="image">
+  {% endif %}
 
   {% if site.data.settings.advanced_settings.analytics_code %}
   <!-- Analytics Code -->
@@ -50,7 +53,7 @@
 </head>
 
 <body>
-  {% include header.html %}
+  {% include navigation.html %}
   <div class="wrapper page">
     {% if page.url != "/" and page.collection != "posts" and page.type != "blogListing" and page.type != "contact" %}
     <!-- Is not a blog post or blog archive or contact page -->

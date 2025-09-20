@@ -113,7 +113,7 @@
       // Headroom - show/hide navbar on scroll
       if ($('.headroom')[0]) {
         var headroom = new Headroom(document.querySelector("#navbar-main"), {
-          offset: 300,
+          offset: 100,
           tolerance: {
             up: 30,
             down: 30
@@ -123,10 +123,10 @@
             notTop: "headroom--not-top navbar-dark"
           },
           onTop: function() {
-            $('#navbar-brand-logo-image').attr('src', "{{ '/assets/img/brand/color.png' | relative_url }}");
+            $('#navbar-brand-logo-image').attr('src', "{{ site.data.settings.header_settings.mobile_logo_image | relative_url }}");
           },
           onNotTop: function() {
-            $('#navbar-brand-logo-image').attr('src', "{{ '/assets/img/brand/white.png' | relative_url }}");
+            $('#navbar-brand-logo-image').attr('src', "{{ site.data.settings.header_settings.logo_image | relative_url }}");
           }
         });
         headroom.init();
