@@ -1,26 +1,11 @@
 ---
 title: Värmepannor från Fröling
-subtitle: Ved eller flis – biovärme för dig
+subtitle: Ved, flis eller pellets – biovärme att lita på!
 description: Värme att lita på med värmesystem från Fröling och lokal expertis på Åland.
 permalink: '/produkter/'
-featured_image: /assets/img/sections/broofoac.jpg
+featured_image: /assets/img/energipartner-att-lita-pa.webp
 ---
 
-```components/teams/team-carousel-1.html ```
-{% include components/teams/team-carousel-1.html %}
-
----
-```components/teams/team-carousel-2.html ```
-{% include components/teams/team-carousel-2.html %}
-
----
-```components/teams/team-carousel-3.html ```
-{% include components/teams/team-carousel-3.html %}
-
----
-```components/teams/team-carousel-4.html ```
 {% include components/teams/team-carousel-4.html %}
 
----
-```components/teams/team-carousel-5.html ```
-{% include components/teams/team-carousel-5.html %}
+{% include components/teams/team-carousel-3.html %}

@@ -1,16 +1,7 @@
 ---
-title: Artiklar
-subtitle: Energipartner Åland Ab – Artiklar om värmepannor på Åland
+title: Referensprojekt och artiklar
+subtitle: Här hittar du artiklar om trä, värme och Frölings pannor. Du får också veta mer om hur vi arbetar med våra kunder och hur vi kan hjälpa dig!
 permalink: '/artiklar/'
----
-
-### Narrow Grid
-You can change your blog style in the `settings.yml` file.
-
-You'll find this inside the `_data` folder – this is where you can set all of the theme options.
-
-`theme` – choose a format for your blog listings [basic, narrow, grid]
-
 ---
 
  {% include components/blog/narrow.html %}  

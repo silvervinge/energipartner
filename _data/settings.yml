@@ -35,7 +35,7 @@ menu_settings:
       url: /
     - title: 'Fröling värmepannor'
       url: '/produkter/'          
-    - title: 'Artiklar'
+    - title: 'Referensprojekt'
       url: '/artiklar/'    
     - title: 'Om'
       url: '/om/'
@@ -43,7 +43,7 @@ menu_settings:
       url: '/kontakt/'
 
 footer_settings:
-  footer_tagline: Energipartner – Värme att lita på
+  footer_tagline: Värme att lita på, lokal expertis på Åland
 
 social_settings:
   facebook_url: 'https://www.facebook.com/energipartner.aland/'
