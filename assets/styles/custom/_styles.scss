@@ -1,1 +1,17 @@
+@include media-breakpoint-up(md) {
+  .kundcases {
+    .kundcase-image {
+      &.even {
+        order: 3;
+      }
 
+      &.odd {
+        order: 1;
+      }
+    }
+
+    .kundcase-information {
+      order: 2;
+    }
+  }
+}

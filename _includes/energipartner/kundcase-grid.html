@@ -1,22 +1,28 @@
-<div class="section features-6">
+<div class="section features-6 kundcases">
   <div class="container">
     <div class="row align-items-center">
       {% for case in include.cases %}
-      <div class="col-lg-6 col-sm-12">
-        <div class="info info-horizontal info-hover-primary">
-          <div class="icon icon-shape icon-shape-info rounded-circle text-white">
-            <i class="ni ni-html5 text-info"></i>
+      {% capture odd %}{% cycle 'odd', 'even' %}{% endcapture %}
+      <div class="container">
+        <div class="row">
+          <div class="kundcase-information col-md-6 col-sm-12 {{ odd }}">
+            <div class="info info-horizontal info-hover-primary">
+              <div class="icon icon-shape icon-shape-info rounded-circle text-white">
+                <i class="ni ni-html5 text-info"></i>
+              </div>
+              <div class="description pl-4">
+                <h5 class="title">{{ case.title }}</h5>
+                <p>{{ case.description }} </p>
+                <a href="{{ case.link }}" class="text-info">{{ case.link_text }}</a>
+              </div>
+            </div>
           </div>
-          <div class="description pl-4">
-            <h5 class="title">{{ case.title }}</h5>
-            <p>{{ case.description }} </p>
-            <a href="{{ case.link }}" class="text-info">{{ case.link_text }}</a>
+          <div class="kundcase-image col-md-6 col-sm-12 mx-md-auto {{ odd }}">
+            <img src="{{ case.image | relative_url }}" width="100%" style="width: 100%;">
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-sm-12 col-md-10 mx-md-auto">
-        <img class="ml-lg" src="{{ case.image | relative_url }}" width="100%">
-      </div>
+      <div class="w-100 py-3"></div>
       {% endfor %}
     </div>
   </div>
