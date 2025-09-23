@@ -1,26 +1,21 @@
 ---
-title: Om oss
-subtitle: Värmesystem från Fröling och lokal expertis på Åland
+title: Om 
+subtitle: Energipartner och Jonas Lönnblad
 description: Värme att lita på med värmesystem från Fröling och lokal expertis på Åland.
 permalink: '/om/'
-featured_image: /assets/img/sections/broofoac.jpg
+featured_image: /assets/img/jonas-lonnblad-bil.webp
 ---
 
-```components/teams/team-carousel-1.html ```
+<div class="row">
+    <div class="col-md-8 mx-auto text-center  mb-5">
+        <p class="lead">
+        Trä är ett bra bränsle! Ved, flis och pellets är miljövänliga alternativ till olja och du kan få 100 procent lokal råvara. Frölings pannor håller dessutom hög kvalitet – därför är det dem vi arbetar med. Välkommen till Energipartner Åland!</p>    
+    </div>
+</div>
+
 {% include components/teams/team-carousel-1.html %}
 
----
-```components/teams/team-carousel-2.html ```
-{% include components/teams/team-carousel-2.html %}
 
----
-```components/teams/team-carousel-3.html ```
-{% include components/teams/team-carousel-3.html %}
 
----
-```components/teams/team-carousel-4.html ```
-{% include components/teams/team-carousel-4.html %}
 
----
-```components/teams/team-carousel-5.html ```
-{% include components/teams/team-carousel-5.html %}
+
