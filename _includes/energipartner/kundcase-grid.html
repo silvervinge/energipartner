@@ -7,9 +7,11 @@
         <div class="row">
           <div class="kundcase-information col-md-6 col-sm-12 {{ odd }}">
             <div class="info info-horizontal info-hover-primary">
+              {% if case.icon and case.show_icon == true %}
               <div class="icon icon-lg text-white">
                 <object data="{{ case.icon }}" type="image/svg+xml"></object>
               </div>
+              {% endif %}
               <div class="description pl-4">
                 <h5 class="title">{{ case.title }}</h5>
                 <p>{{ case.description }} </p>
