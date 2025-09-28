@@ -1,4 +1,6 @@
 @include media-breakpoint-up(md) {
+
+  // Kastar om ordning på kundcase-text och -bild så de kommer med bilden varannan till höger och varannan till vänster om texten. 
   .kundcases {
     .kundcase-image {
       &.even {
@@ -12,6 +14,17 @@
 
     .kundcase-information {
       order: 2;
+    }
+  }
+}
+
+// Override för att se till så hela bilden syns i kortet.
+// Den ursprungliga CSS:en som vi skriver över finns i filen card-profile.scss, rad 70.
+.card-profile {
+  &[data-background="full"] {
+    .card-body {
+      position: inherit;
+      margin-bottom: 15px;
     }
   }
 }
