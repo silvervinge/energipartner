@@ -1,3 +1,4 @@
+{% assign clear_header_image = page.clear_header_image %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
@@ -60,8 +61,8 @@
     {% if page.featured_image %}
     <!-- Is a page with a banner -->
     <div class="page-header page-header-small header-filter mb-4">
-      <div class="page-header-image card-background"
-        style="background-image: url({{ page.featured_image | relative_url }});"></div>
+      <div class="page-header-image{% unless clear_header_image %} card-background{% endunless %}"
+        style="background-image: url('{{ page.featured_image | relative_url }}');"></div>
       <div class="container contentWrapper">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center pt-4">

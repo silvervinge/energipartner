@@ -4,6 +4,7 @@ subtitle: Energipartner och Jonas Lönnblad
 description: Värme att lita på med värmesystem från Fröling och lokal expertis på Åland.
 permalink: '/om/'
 featured_image: /assets/img/jonas-lonnblad-bil.webp
+clear_header_image: true
 ---
 
 <div class="row">
