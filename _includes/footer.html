@@ -118,14 +118,10 @@
       // Headroom - show/hide navbar on scroll
       if ($('.headroom')[0]) {
         var headroom = new Headroom(document.querySelector("#navbar-main"), {
-          offset: 100,
+          offset: 300,
           tolerance: {
             up: 30,
             down: 30
-          },
-          classes: {
-            top: "headroom--top navbar-light bg-white",
-            notTop: "headroom--not-top navbar-dark"
           }
         });
         headroom.init();
