@@ -8,7 +8,7 @@ clear_header_image: true
 ---
 
 <div class="row">
-    <div class="col-md-8 mx-auto text-center  mb-5">
+    <div class="col-md-8 mx-auto text-md-center mb-5">
         <p class="lead">
         Trä är ett bra bränsle! Ved, flis och pellets är miljövänliga alternativ till olja och du kan få 100 procent lokal råvara. Frölings pannor håller dessutom hög kvalitet – därför är det dem vi arbetar med. Välkommen till Energipartner Åland!</p>    
     </div>
