@@ -1,6 +1,6 @@
 @include media-breakpoint-up(md) {
 
-  // Kastar om ordning på kundcase-text och -bild så de kommer med bilden varannan till höger och varannan till vänster om texten. 
+  // Kastar om ordning på kundcase-text och -bild så de kommer med bilden varannan till höger och varannan till vänster om texten.
   .kundcases {
     .kundcase-image {
       &.even {
@@ -33,21 +33,5 @@
 .navbar.navbar-light {
   &.bg-white {
     background-color: color("white") !important;
-  }
-}
-
-// Bredda grid:en på index-sidan
-@each $breakpoint, $container-max-width in $container-max-widths {
-  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
-    #main.container.home {
-      max-width: unset;
-
-      section,
-      .section {
-        .container {
-          max-width: unset;
-        }
-      }
-    }
   }
 }
