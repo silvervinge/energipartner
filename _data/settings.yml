@@ -6,9 +6,9 @@ header_settings:
   logo_image: /assets/img/brand/white.png
   mobile_logo_image: /assets/img/brand/color.png
   # Choose a color for your header [blue, dark, light].
-  theme: light
+  theme: blue
   # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".
-  allow_transparent: "yes"
+  allow_transparent: "no"
 
 home_settings:
   # Choose a layout for your home page:
@@ -25,18 +25,18 @@ blog_settings:
   # Should we display a narrow grid of other posts at the bottom of each blog post?
   read_more: "yes"
 
-# Setup your navigation below – how to use the icons: 
+# Setup your navigation below – how to use the icons:
   # 1. See all the icons available here https://demos.creative-tim.com/argon-design-system-pro/docs/1.0/foundation/icons.html
-  # 2. Get the name of the icon e.g basket, then prefix with ni to make ni-basket. 
-  # 3. Add a color of the icon - text-primary, text-success, text-info, text-danger, text-warning and text-default all work! 
+  # 2. Get the name of the icon e.g basket, then prefix with ni to make ni-basket.
+  # 3. Add a color of the icon - text-primary, text-success, text-info, text-danger, text-warning and text-default all work!
 menu_settings:
   menu_items:
     - title: 'Hem'
       url: /
     - title: 'Fröling värmepannor'
-      url: '/produkter/'          
+      url: '/produkter/'
     - title: 'Referensprojekt'
-      url: '/artiklar/'    
+      url: '/artiklar/'
     - title: 'Om'
       url: '/om/'
     - title: 'Kontakt'
@@ -50,6 +50,6 @@ social_settings:
   instagram_url: 'https://www.instagram.com/energipartner.aland'
 
 advanced_settings:
-  analytics_code: 
-  header_js: 
-  footer_js: 
+  analytics_code:
+  header_js:
+  footer_js:

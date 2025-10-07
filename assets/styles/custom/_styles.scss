@@ -35,3 +35,36 @@
     background-color: color("white") !important;
   }
 }
+
+// Blå navbar överallt och hela tiden
+.navbar {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+
+  &.bg-primary {
+    background-color: theme-color("default") !important;
+  }
+
+  &.headroom--top {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}
+
+// Justeringsklasser för när header-image hamnar på ett sätt så viktiga delar försvinner under menyraden
+
+.page-header {
+  .page-header-image {
+    &.page-header-image-align-top {
+      background-position-y: top;
+    }
+
+    &.page-header-image-align-center {
+      background-position-y: center;
+    }
+
+    &.page-header-image-align-bottom {
+      background-position-y: bottom;
+    }
+  }
+}

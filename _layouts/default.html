@@ -1,4 +1,5 @@
 {% assign clear_header_image = page.clear_header_image %}
+{% assign header_image_vertical_alignment = page.header_image_vertical_alignment %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
@@ -61,7 +62,7 @@
     {% if page.featured_image %}
     <!-- Is a page with a banner -->
     <div class="page-header page-header-small header-filter mb-4">
-      <div class="page-header-image{% unless clear_header_image %} card-background{% endunless %}"
+      <div class="page-header-image{% unless clear_header_image %} card-background{% endunless %}{% if header_image_vertical_alignment %} page-header-image-align-{{ header_image_vertical_alignment }}{% endif %}"
         style="background-image: url('{{ page.featured_image | relative_url }}');"></div>
       <div class="container contentWrapper">
         <div class="row">

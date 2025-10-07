@@ -5,6 +5,7 @@ description: Värme att lita på med värmesystem från Fröling och lokal exper
 permalink: '/om/'
 featured_image: /assets/img/jonas-lonnblad-bil.webp
 clear_header_image: true
+header_image_vertical_alignment: top # options: top, center, bottom
 ---
 
 <div class="row">
