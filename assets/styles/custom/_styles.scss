@@ -52,7 +52,6 @@
 }
 
 // Justeringsklasser för när header-image hamnar på ett sätt så viktiga delar försvinner under menyraden
-
 .page-header {
   .page-header-image {
     &.page-header-image-align-top {
@@ -65,6 +64,44 @@
 
     &.page-header-image-align-bottom {
       background-position-y: bottom;
+    }
+  }
+}
+
+// Justeringar för kontaktsidan
+.contactus-3 {
+  // Epostadressen klipps av i värsta fall annars:
+  overflow-x: visible;
+
+  // Justera regler som gjorde att första bilden (loggan) sträcktes ut på höjden
+  .bg-image {
+    height: auto;
+    width: unset;
+  }
+}
+
+// Regler för skärmar bredare än 768px (surfplattor stående och uppåt)
+@include media-breakpoint-up(md) {
+  .contactus-3 {
+
+    // Info-blocken med adress, epost och telefon
+    .info {
+      // Tar bort padding vä/hö på skärmar bredare än 768px för att epostadressen ska rymmas utan problem
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+
+// Regler för skärmar bredare än 992px (surfplattor liggande och uppåt)
+@include media-breakpoint-up(lg) {
+  .contactus-3 {
+
+    // Första bilden på kontaktsidan (loggan)
+    .bg-image {
+      // Den här fanns i temat för att första bilden på kontaktsidan inte ska försvinna
+      // under menyraden men den bet inte eftersom den var begränsad till en pricing-sida.
+      margin-top: 5.74em !important;
     }
   }
 }
