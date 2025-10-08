@@ -105,3 +105,25 @@
     }
   }
 }
+
+// Regler för skärmar smalare än 576px (mobiler stående)
+@include media-breakpoint-down(sm) {
+  .contactus-3 {
+
+    // Ändra ordningen på "korten" så att telefon kommer först om besökaren surfar på mobil.
+    .info-cards {
+
+      #info-phone {
+        order: 1;
+      }
+
+      #info-mail {
+        order: 2;
+      }
+
+      #info-address {
+        order: 3;
+      }
+    }
+  }
+}
