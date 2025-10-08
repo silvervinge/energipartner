@@ -329,7 +329,7 @@ $font-family-alt: 'Open Sans', sans-serif !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xl:                ($font-size-base * 1.5);
 $font-size-lg:                ($font-size-base * 1.25);
-$font-size-sm:                ($font-size-base * .875);
+$font-size-sm:                ($font-size-base * 1); //SPRAKA EDIT – original .875
 $font-size-xs:                ($font-size-base * .75);
 
 $font-weight-light:           300 !default;
@@ -381,7 +381,7 @@ $display3-weight:             $font-weight-bold !default;
 $display4-weight:             $font-weight-bold !default;
 $display-line-height:         $headings-line-height !default;
 
-$paragraph-font-size:         1rem !default;
+$paragraph-font-size:         1.2rem !default; //SPRAKA EDIT – original 1rem
 $paragraph-font-weight:       300 !default;
 $paragraph-line-height:       1.7 !default;
 
