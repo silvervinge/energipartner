@@ -1,12 +1,26 @@
 ---
 title: "Möt vår svenska samarbetspartner"
 date: 2025-08-31 00:00:00
-description: Vår samarbetspartner Bioinvest Sverige är Sveriges huvudåterförsäljare av Fröling värmepannor och erbjuder – precis som vi – högkvalitativa lösningar för både privat- och företagskunder.
+description: Vår samarbetspartner Bioinvest Sverige är svensk huvudåterförsäljare av Frölings värmepannor och erbjuder – precis som vi – högkvalitativa lösningar för både privat- och företagskunder.
 permalink: '/bioinvest/'
 featured_image: /assets/img/bioinvest.webp
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id tristique elit. Nulla varius pharetra arcu, et interdum enim sollicitudin eu. Quisque fringilla et nisl et volutpat. Duis blandit tellus vitae nulla imperdiet, ac luctus urna malesuada. Curabitur dolor neque, finibus in mattis at, luctus sed lorem. Ut vel aliquam leo, at dapibus augue. Morbi ullamcorper dictum urna ac fermentum.
+# Vår svenska väg rakt in i Frölings fabriker
 
-Cras nec consectetur lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas et est scelerisque, mollis tortor non, placerat purus. Nam interdum, odio sed pharetra malesuada, est risus venenatis ex, et scelerisque purus orci sed libero. Curabitur sagittis sodales tellus vitae elementum. Donec eget mi sed eros sodales commodo vulputate id ipsum. Maecenas pulvinar justo porta nisi ullamcorper fringilla. Proin enim sapien, porttitor quis nisi eget, blandit iaculis sem.
+2010 hjälpte Thomas Östlund en kompis att installera en flispanna från Fröling och ett par år senare köpte han sin egna vedpanna från det österrikiska företaget, känt för sin kvalitet. Det blev starten på Thomas bana som återförsäljare av Frölings pannor i Sverige.
+
+Idag driver Thomas företaget Bioinvest Sverige och står i direkt förbindelse med Frölings fabrik i Österrike. Även för honom är kvalitet och personlig service viktigt. Thomas säger:
+
+*"Man försöker vara tillmötesgående så långt det går. Det tror jag att folk uppskattar och att man har igen."*
+
+**Thomas är engagerad i sina samarbetspartners** och tillbringar en stor del av sin tid i bilen, för att resa emellan oss. Han har varit här och sett nästan alla våra installationer på Åland.
+
+Det är också Thomas som sköter registreringen av konton för Fröling Connect, det digitala systemet och appen som låter dig övervaka din panna via mobilen.
+
+**Genom vårt samarbete med Bioinvest Sverige kan vi göra starka och säkra leveranser**, samtidigt som du får den lilla leverantörens engagemang och personliga service. Läs mer om Bioinvest Sverige på deras webbplats, [bioinvest.se](https://bioinvest.se).
+
+**Har du ett projekt du vill diskutera?** [Kontakta oss](/kontakt/)!
+
+
 

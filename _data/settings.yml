@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Energipartner Åland
+  site_title: Energipartner
   favicon_image: /assets/img/favicon.png
 
 header_settings:
@@ -43,7 +43,7 @@ menu_settings:
       url: '/kontakt/'
 
 footer_settings:
-  footer_tagline: Värme att lita på, lokal expertis på Åland
+  footer_tagline: Värme att lita på, lokal expertis och service
 
 social_settings:
   facebook_url: 'https://www.facebook.com/energipartner.aland/'
