@@ -20,7 +20,7 @@ Den nya lösningen är effektivare än den gamla – och har högre driftsäkerh
 
 **Janne säger att något de uppskattade med oss som leverantör** är att vi inte bara försåg dem med fullständiga tekniska underlag och ritningar, utan också rekommenderade en lösning som vi såg att de skulle ha stor nytta av – ett system med flispanna, ackumulatortankar och flislager. 
 
-**Man behövde bygga ut för att få plats, men Jan menar att det var värt det:**
+**Man behövde bygga ut för att få plats, men Janne tycker att det var värt det:**
 
 *"Pannan går mycket bättre med ackumulatortankar. Vi byggde ut på inrådan av Jonas för att få in den utrustning som han rekommenderade. Han tog fram allt tekniskt underlag som behövdes, även ritning på pannrummet.*
 
