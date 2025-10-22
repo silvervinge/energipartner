@@ -36,7 +36,42 @@
   <link href="{{ "/assets/css/nucleo-svg.css" | relative_url }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link rel="stylesheet" href="{{ "/assets/styles/styles.css" | relative_url }}" rel="stylesheet">
+  {% if page.header.background_image or page.featured_image %}
+  {% if page.url != "/" and page.collection != "posts" and page.type != "blogListing" and page.type != "contact" %}
+  {% if page.featured_image %}
+  <style>
+    .page-header-image {
+      background-image: url("{{ page.featured_image | relative_url }}");
+    }
+  </style>
+  {% endif %}
+  {% elsif page.url == "/" %}
+  <style>
+    .page.wrapper {
+      overflow-x: hidden;
+    }
 
+    .header-1 .page-header-image {
+      background-image: url("{{ page.header.background_image | relative_url }}");
+    }
+  </style>
+  {% elsif page.featured_image and page.layout == "post" %}
+  <style>
+    .page-header.header-filter {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+    }
+
+    .page.wrapper {
+      overflow-x: hidden;
+    }
+
+    .page-header-image {
+      background-image: url("{{ page.featured_image | relative_url }}");
+    }
+  </style>
+  {% endif %}
+  {% endif %}
   <link rel="preload" href="{{ "/assets/js/core/jquery.min.js" | relative_url }}" as="script">
   {% if page.header.background_image %}
   <link rel="preload" href="{{ page.header.background_image | relative_url }}" as="image">
@@ -69,8 +104,7 @@
     {% if page.featured_image %}
     <!-- Is a page with a banner -->
     <div class="page-header page-header-small header-filter mb-4">
-      <div class="page-header-image{% unless clear_header_image %} card-background{% endunless %}{% if header_image_vertical_alignment %} page-header-image-align-{{ header_image_vertical_alignment }}{% endif %}"
-        style="background-image: url('{{ page.featured_image | relative_url }}');"></div>
+      <div class="page-header-image{% unless clear_header_image %} card-background{% endunless %}{% if header_image_vertical_alignment %} page-header-image-align-{{ header_image_vertical_alignment }}{% endif %}"></div>
       <div class="container contentWrapper">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center pt-4">
